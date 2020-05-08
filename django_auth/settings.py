@@ -125,7 +125,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
+MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage" 
+
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
